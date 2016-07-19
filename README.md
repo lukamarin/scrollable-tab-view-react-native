@@ -17,8 +17,8 @@ the animations behind this work, check out the Rebound section of the
 ## Demo
 <a href="https://appetize.io/embed/6qfv7eydjtm34mhn6qwj2nt3xm?embed=true&screenOnly=false&xdocMsg=true&debug=true&scale=100&deviceColor=black&orientation=portrait&device=iphone6s&osVersion=9.3&deviceId=RGV2aWNlOjU2Y2FjNTExZWQwOTM2MTEwMGRhYTNlNg&platform=ios&width=375&height=668&phoneWidth=416&phoneHeight=870&screenOffsetLeft=21&screenOffsetTop=100&params=%7B%7D" target="_blank"><strong>Run this example</strong></a>
 
-<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view/master/demo_images/demo.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view/master/demo_images/demo.gif" width="350"></a>
-<a href="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view/master/demo_images/demo-fb.gif"><img src="https://raw.githubusercontent.com/brentvatne/react-native-scrollable-tab-view/master/demo_images/demo-fb.gif" width="350"></a>
+<a href="https://raw.githubusercontent.com/lukamarin/scrollable-tab-view-react-native/master/demo_images/demo.gif"><img src="https://raw.githubusercontent.com/lukamarin/scrollable-tab-view-react-native/master/demo_images/demo.gif" width="350"></a>
+<a href="https://raw.githubusercontent.com/lukamarin/scrollable-tab-view-react-native/master/demo_images/demo-fb.gif"><img src="https://raw.githubusercontent.com/lukamarin/scrollable-tab-view-react-native/master/demo_images/demo-fb.gif" width="350"></a>
 
 ## Basic usage
 
@@ -62,13 +62,13 @@ var App = React.createClass({
 
 ## Examples
 
-[SimpleExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/examples/FacebookTabsExample/SimpleExample.js).
+[SimpleExample](https://github.com/lukamarin/scrollable-tab-view-react-native/blob/master/examples/FacebookTabsExample/SimpleExample.js).
 
-[ScrollableTabsExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/examples/FacebookTabsExample/ScrollableTabsExample.js).
+[ScrollableTabsExample](https://github.com/lukamarin/scrollable-tab-view-react-native/blob/master/examples/FacebookTabsExample/ScrollableTabsExample.js).
 
-[OverlayExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/examples/FacebookTabsExample/OverlayExample.js).
+[OverlayExample](https://github.com/lukamarin/scrollable-tab-view-react-native/blob/master/examples/FacebookTabsExample/OverlayExample.js).
 
-[FacebookExample](https://github.com/skv-headless/react-native-scrollable-tab-view/blob/master/examples/FacebookTabsExample/FacebookExample.js).
+[FacebookExample](https://github.com/lukamarin/scrollable-tab-view-react-native/blob/master/examples/FacebookTabsExample/FacebookExample.js).
 
 ## Props
 
@@ -83,7 +83,7 @@ var App = React.createClass({
 - **`onScroll`** _(Function)_ - function to call when the pages are sliding, should accept 1 argument which is an Float number representing the page position in the slide frame.
 - **`locked`** _(Bool)_ - disables horizontal dragging to scroll between tabs, default is false.
 - **`initialPage`** _(Integer)_ - the index of the initially selected tab, defaults to 0 === first tab.
-- **`page`** _(Integer)_ - set selected tab(can be buggy see  [#126](https://github.com/brentvatne/react-native-scrollable-tab-view/issues/126)
+- **`page`** _(Integer)_ - set selected tab(can be buggy see  [#126](https://github.com/lukamarin/scrollable-tab-view-react-native/issues/126)
 - **`children`** _(ReactComponents)_ - each top-level child component should have a `tabLabel` prop that can be used by the tab bar component to render out the labels. The default tab bar expects it to be a string, but you can use anything you want if you make a custom tab bar.
 - **`tabBarUnderlineColor`** _(String)_ - color of the default tab bar's underline, defaults to `navy`
 - **`tabBarBackgroundColor`** _(String)_ - color of the default tab bar's background, defaults to `white`
